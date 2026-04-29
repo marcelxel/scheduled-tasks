@@ -6,10 +6,11 @@
 # See the solution video in the 100 Days of Python Course for explainations.
 
 
-from datetime import dt
+import csv
+import datetime as dt
+import smtplib
 import pandas
 import random
-import smtplib
 import os
 
 # import os and use it to get the Github repository secrets
